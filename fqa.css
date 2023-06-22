@@ -1,0 +1,59 @@
+:root {
+    --white: #EFF0F3;
+    --lightgreen: #ABD1C6; 
+    --yellow: #F9BC60;
+    --red: #E16162; 
+    --darkgreen: #004643; 
+}
+body {
+    background-image: url(https://uploads-ssl.webflow.com/64640b339ea27d46cf44adc8/64918d58d31f132488f96387_13-p-800.png);
+    background-repeat: repeat;
+    background-size: 25%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Poppins', sans-serif; ;
+}
+
+.accordion {
+    width:65%; 
+    background-color:#EFF0F3; 
+    padding:10px;
+    border-radius: 20px;
+    margin-top:20px;
+}
+.accordion .accordion-title {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.accordion .content-container .questions {
+    padding: 20px 10px;
+    font-size: 22px;
+    cursor: pointer;
+    border-bottom: 2px solid #004643;
+    border-radius: 15px;
+    background-color: #F9BC60;
+
+    position: relative;
+}
+
+.accordion .content-container .questions:after {
+    content: '+';
+    position: absolute;
+    right: 10px;
+}
+
+.accordion .content-container .answers {
+    padding-top: 15px;
+    line-height: 1.5;
+    width: 100%;
+
+    height: 0px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+/*JAVASCIPT STYLES */ 
+.accordion .content-container.active .answers {
+    height: 100%;
+}
