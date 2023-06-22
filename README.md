@@ -1,6 +1,6 @@
 # FAQ Accordion
 This project implements an FAQ (Frequently Asked Questions) accordion using HTML, CSS, and JavaScript. The accordion allows users to expand and collapse questions and answers to easily navigate through the FAQs.
-##  [Click here to view the live project!](https://aysemerveksv.github.io/FQA-project/)
+##  [Click here to view the live project!]
 ## Usage
 To use the FAQ accordion, follow these steps:
 
